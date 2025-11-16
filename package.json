@@ -12,6 +12,7 @@
     "setup-futarchy-amm": "NODE_OPTIONS=\"--no-deprecation\" tsx --tsconfig tsconfig.json scripts/setupFutarchyAmm.ts",
     "initialize-dao": "NODE_OPTIONS=\"--no-deprecation\" tsx --tsconfig tsconfig.json scripts/v0.6/initializeDao.ts",
     "watch-launch-and-swap": "NODE_OPTIONS=\"--no-deprecation\" tsx --tsconfig tsconfig.json scripts/watchLaunchAndSwap.ts",
+    "list-launches": "NODE_OPTIONS=\"--no-deprecation\" tsx --tsconfig tsconfig.json scripts/listLaunches.ts",
     "prepare": "husky"
   },
   "lint-staged": {
